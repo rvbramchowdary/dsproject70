@@ -1,0 +1,10 @@
+Flask==1.1.2
+click==8.0.4
+Werkzeug==2.0.3
+Jinja2==2.11.3
+itsdangerous==2.0.1
+flask-ngrok==0.0.25
+Flask-compress==1.12
+dtale==2.6.0
+dash==2.5.1
+

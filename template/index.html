@@ -1,0 +1,37 @@
+</head>
+
+<body>
+ <div class="login">
+	<h1>Forecasting Time Series Analysis</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	  <!--Start Date<input type= "date" name= "start_date"> --> 
+    	  <!--End Date<input type= "date" name= "end_date"> -->
+        
+         
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict for next 7 days</button>
+         
+       
+         
+    </form>
+    
+    
+
+   <br>
+   <br>
+    {{ prediction_text }}
+        
+   
+   
+   
+   <br/>
+   <br/>
+    
+   
+
+ </div>
+
+
+</body>
+</html>
